@@ -1,0 +1,26 @@
+{
+  "name": "mongodb-stargate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidrecursive/mongodb-stargate.git"
+  },
+  "dependencies": {
+    "@astrajs/client": "^0.3.3",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "mocha": "^9.2.1",
+    "mongoose": "file:../mongoose",
+    "mongoose-unique-validator": "^3.0.0"
+  },
+  "mocha": {
+    "timeout": 30000
+  }
+}
